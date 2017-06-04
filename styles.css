@@ -1,0 +1,106 @@
+header{
+  background: 	#AFEEEE;
+  text-align: center;
+  display:block;
+  padding: 2px;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin:5px;
+  padding:0px;
+}
+h3{
+  font-family:'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+h6{
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+body p{
+  font-family: 'Khula', sans-serif;
+  font-size: 8px;
+  margin:0px;
+  text-align: center;
+  padding-top:0px;
+}
+
+footer{
+  text-align: right;
+  float: right;
+}
+.clearer {
+    clear:both;
+    height:20px;
+    display:block;
+}
+
+#viewport, #content {
+	width:1000px;
+}
+
+#viewport {
+	background-color: white;
+    height:600px;
+    width: 900px;
+
+    /* this needs to have some kind of positioning, absolute
+       or relative, to have the pos of elements inside it calculated correctly,
+       since otherwise the computeTotalTransformation does not work correctly
+       (offsetParent for items would be outside the #content, and offset
+       would be calculated relative to the parent..) */
+	position:relative;
+  float: left;
+
+	margin:10px auto 0px auto;
+	-webkit-box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.zoomContainer div {
+  float: left;
+  border: solid LightBlue 5px;
+	width:150px;
+  height:150px;
+  border-radius:50%;
+	margin:20px;
+	padding:10px;
+  position: relative;
+
+}
+.required{
+  color: RebeccaPurple;
+}
+.seng{
+  color:  #ee4466;
+}
+
+.interests{
+  color: DarkOliveGreen;
+}
+
+#legend{
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.legendContents{
+  padding-left: 910px;
+  padding-right: 10px;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 22px;
+}
